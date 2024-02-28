@@ -28,7 +28,11 @@ app.use(express.urlencoded({ extended: true }));
 
 // Enable CORS
 const corsOptions = {
-  origin: ["http://localhost:3001", "http://64.23.212.196:3001"],
+  origin: [
+    "http://localhost:3001",
+    "http://64.23.212.196:3001",
+    "http://64.227.136.143:3001",
+  ],
   optionsSuccessStatus: 200,
 };
 
